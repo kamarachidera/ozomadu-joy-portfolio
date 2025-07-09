@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="https://kit.fontawesome.com/d725730bde.js" crossorigin="anonymous"></script>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+  <body>
+    
+      <div class="right-content">
+        <nav>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-circle-xmark" onclick="closemenu ()"></i>
+          </ul>
+          
+          <i class="fa-solid fa-bars" onclick="openmenu ()" ></i>
+
+        </nav>
+
+    <!-- FULLSCREEN HEADER -->
+    <div id="header">
+      <div class="left-content">
+        <h1>Telecommunications Engineer | Software Developer | AI/ML Enthusiast</h1>
+        <p>With expertise across networking, frontend development, and intelligent systems, I create seamless, data-driven solutions for the modern digital world.</p>
+        </nav>
+      </div>
+  
+  
+        <div class="right-image">
+          <img src="images/image 2.jpg" alt="Joy's Photo">
+        </div>
+      </div>
+    </div>
+  
+    <!-- ABOUT SECTION BELOW HEADER -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/background image.jpg" alt="About Image">
+          </div>
+          <div class="about-col-2">
+
+<h1>About Me</h1>
+<p>
+  I'm <strong>Ozomadu Joy Chidera</strong>, a forward-thinking <strong>Telecommunications Engineer</strong> and versatile <strong>Software Developer</strong> with a passion for solving complex problems at the intersection of <strong>networks, intelligent systems, and digital technologies</strong>. My academic foundation in Telecommunication Engineering, combined with hands-on industry experience, empowers me to build efficient, reliable, and innovative technology solutions.
+</p>
+
+<p>
+  Over the years, I have developed a unique blend of skills spanning <strong>network design and optimization</strong>, <strong>frontend web development</strong>, and <strong>machine learning</strong>. I’ve worked with Internet Service Providers (ISPs), contributed to real-world infrastructure using Cambium Networks hardware, and led AI-driven initiatives to improve business efficiency and user experience.
+</p>
+
+<p>
+  Whether I’m configuring network topologies, designing responsive web interfaces, or training predictive models, I approach every project with a strong attention to detail, a deep understanding of system architecture, and a drive for continuous improvement.
+</p>
+
+<div id="more-about" style="display: none;">
+  <p>
+    I’m currently exploring how <strong>emerging technologies like AI, IoT, and cloud-based networks</strong> can revolutionize communication systems, automate operations, and empower users in underserved communities.
+  </p>
+
+  <p>
+    Beyond the technical, I’m also a strong communicator, team player, and project leader. I thrive in fast-paced environments, enjoy collaborating across disciplines, and am committed to creating solutions that are not only functional but meaningful.
+  </p>
+
+  <p>
+    I’m currently open to opportunities in telecom, AI, or software engineering that allow me to grow, lead, and build impactful systems.
+  </p>
+
+  <p>
+    When I’m not coding or configuring networks, I enjoy exploring digital art and mentoring young engineers.
+  </p>
+</div>
+
+<button id="readMoreBtn" class="btn btn2" style="margin-top: 15px;">Read More</button>
+
+
+
+
+            <div class="tab-title">
+              <P class="tab-links active-link" onclick="opentab('skills')">SKILLS</P>
+              <P class="tab-links" onclick="opentab('experience')" >EXPERIENCE</P>
+              <P class="tab-links" onclick="opentab('education')">EDUCATION</P>
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+            <h3 class="skill-heading">Technical Skills</h3>
+            <ul class="skill-list">
+            <li>
+              <span>Networking&nbsp;&amp;&nbsp;Telecom</span><br>
+              Network Configuration, ISP Systems (Cambium Networks), IP Routing, Network Monitoring, Cisco&nbsp;Devices
+            </li>
+            <li>
+              <span>Software&nbsp;&amp;&nbsp;Web Development</span><br>
+              HTML, CSS, JavaScript, React, Git&nbsp;/&nbsp;GitHub, Responsive Design, VS&nbsp;Code
+            </li>
+            <li>
+              <span>AI&nbsp;&amp;&nbsp;Machine Learning</span><br>
+              Python, scikit-learn, Model Training, Data Analysis, AI Workflow Design
+            </li>
+            <li>
+              <span>Tools&nbsp;&amp;&nbsp;Platforms</span><br>
+              Canva, CapCut, PixelLab, Google Workspace, GitHub Pages, Google Apps Script
+            </li>
+          </ul>
+
+          <!-- Hidden Part -->
+          <div id="more-skills" style="display: none;">
+            <h3 class="skill-heading">Personal Skills</h3>
+            <ul class="skill-list">
+              <li><span>Communication</span><br>Clear technical writing & client-facing presentations</li>
+              <li><span>Problem-Solving</span><br>Analytical approach to complex network & software issues</li>
+              <li><span>Leadership</span><br>Team mentoring, project coordination, deadline ownership</li>
+              <li><span>Adaptability</span><br>Quick to learn new tools, thrive in fast-paced environments</li>
+              <li><span>Creativity</span><br>Digital-art hobbyist, innovative UI ideas, design thinking</li>
+            </ul>
+          </div>
+
+          <button id="readMoreSkillsBtn" class="btn btn2" style="margin-top: 10px;">Read More</button>
+        </div>
+
+              
+            
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>ipNX Nigeria | Network Engineer Intern (Feb 2025 – Present)</span><br>
+                  Supporting broadband service delivery using Cambium Networks, troubleshooting network outages, and optimizing client connectivity across Ibadan.
+                </li>
+                <li>
+                  <span>Nigerian Army Cyberwarfare Command | Machine Learning Intern (Aug 2023 – Jan 2024)</span><br>
+                  Led AI-driven research projects, contributed to cybersecurity initiatives, and trained predictive models for defense applications.
+                </li>
+                <li>
+                  <span>401 Flying Training School, Nigerian Air Force | Technical Intern (Dec 2022 – Apr 2023)</span><br>
+                  Assisted in radio communication systems, managed control tower equipment, and supported air traffic coordination.
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>Bachelor of Engineering (B.Eng.) in Telecommunications Engineering</span><br>
+                  Air Force Institute of Technology, Kaduna, Nigeria<br>
+                  <em>2019 – 2024</em><br>
+                  Served as Course Representative and technical team lead. Final-year project: IoT-Based Water Quality Monitoring System.
+                </li>
+            
+                <li>
+                  <span>Certifications & Professional Training</span><br>
+                  - Graduate member of the Nigerian society of Engineers (GMNSE) <br>
+                  - Engineering Safety Certification (Health and Safety Enviroment 1,2,3 with first aid and cpr)<br>
+                  - Artificial Intelligence & Machine Learning <br>
+                  - Cisco Certified Network Associate(CCNA)(In view)
+                  
+
+                </li>
+              </ul>
+            </div>
+           </div>
+          </div>
+        </div>
+      </div>
+    </div>
+ <!--------------sevices----------->
+ <div id="Services">
+  <div class="container">
+    <h1 class="jad">What I Offer</h1>
+    <div class="services-list">
+      <div>
+        <i class="fa-solid fa-globe"></i>
+        <h2>Network Engineering</h2>
+        <p>I design, configure, and maintain network infrastructure, ensuring secure and optimized connectivity for homes, businesses, and ISPs.</p>
+      </div>
+      <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>Web Development</h2>
+        <p>I build responsive and user-friendly websites using modern technologies like HTML, CSS, JavaScript, and React.js.</p>
+      </div>
+      <div>
+        <i class="fa-solid fa-brain"></i>
+        <h2>AI & Machine Learning</h2>
+        <p>I develop intelligent systems, train ML models, and use data-driven techniques to automate and enhance decision-making.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+<!-- ====== Portfolio Section ====== -->
+<div id="portfolio">
+  <div class="container">
+    <h1 class="port">My Portfolio</h1>
+    
+    <div class="work-list">
+      
+      <!-- Project 1 -->
+      <div class="work">
+        <img src="images/me.png">
+        <div class="layer">
+          <h3>Responsive Portfolio Website</h3>
+          <p>This portfolio site was built from scratch using HTML, CSS, and JavaScript, optimized for employers and tech recruiters.</p>
+          <a href="https://kamarachidera.github.io/ozomadu-joy-portfolio/" target="_blank">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="work">
+        <img src="images/Amazon Concept - Home Page.jpeg">
+        <div class="layer">
+          <h3>Amazon Clone (E-Commerce Site)</h3>
+          <p>Built a fully responsive Amazon clone with shopping cart functionality, authentication, and dynamic product pages using HTML, CSS, and JavaScript.</p>
+          <a href="https://github.com/kamarachidera/amazon-clone" target="_blank">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="work">
+        <img src="images/Dashboard for water conservation and management app _ Lazarev_.jpeg">
+        <div class="layer">
+          <h3>IoT-Based Water Quality Monitoring System</h3>
+          <p>Designed and implemented a system using NodeMCU and sensors to monitor water quality in real time — a key environmental safety project.</p>
+          <a href="https://github.com/kamarachidera/water-quality-monitoring" target="_blank">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Project 4: Music Genre Prediction -->
+  <div class="work">
+  <img src="images/Audio playback device that allows you to listen to your favorite tunes_.jpeg">
+  <div class="layer">
+    <h3>Music Genre Prediction with Python</h3>
+    <p>Designed and trained a machine learning model to predict music genres based on user data and preferences using Python and scikit-learn.</p>
+    <a href="https://github.com/kamarachidera/music-genre-predictor" target="_blank">
+      <i class="fa-solid fa-arrow-up-right-from-square"></i>
+    </a>
+  </div>
+</div>
+
+
+    </div> <!-- END OF .work-list -->
+
+
+
+    <a href="https://github.com/kamarachidera" class="btn" target="_blank">View More on GitHub</a>
+  </div>
+</div>
+
+
+
+<!-----contact---->
+
+<div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="subtitle">Contact Me</h1>
+          <p> <i class="fa-solid fa-paper-plane"></i>  joyozomad@gmail.com</p>
+          <p> <i class="fa-solid fa-phone"></i>
+            09042768933</p>
+          <div class="social-icons">
+            <a href="www.linkedin.com/in/joy-o-118180226"><i class="fa-brands fa-linkedin"></i>
+              <a href=""><i class="fa-brands fa-twittwer"></i>
+                <a href=""><i class="fa-brands fa-whatsapp"></i>
+            </a>
+          </div>
+          <a href="images/OZOMADU-JOY-CHIDERA-COMMUNICATIONS ENGINEER CV 2.pdf" download class="btn btn2" >Download Cv</a>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="You Name" required>
+            <input type="email" name="email" placeholder="Your Email"required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="Submit" class="btn btn2">Submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+
+      </div>
+    </div>
+    <div class="copyright">
+      <p>copyright<i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+  <script>
+    var tabliinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+      for(tabliink of tabliinks){
+          tabliink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+          tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab")
+    }
+
+  </script>
+
+  <script>
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+      sidemeu.style.right="0";}
+      function closemenu(){
+        sidemeu.style.right="-200px";}
+
+  </script>
+
+  <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxYrb_Ijzo5ckWULGVLZ6pAaPS9l6JNFjRYb26W5yy6A9CxasWt-ccTSP8y6DI-cL0/exec';
+
+  const form = document.forms['submit-to-google-sheet'];
+  const msg = document.getElementById("msg");
+
+  form.addEventListener('submit', e => {
+    e.preventDefault();
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully ✅";
+        msg.style.color = "#ff004f";
+        form.reset();
+        setTimeout(() => {
+          msg.innerHTML = "";
+        }, 5000); // message disappears after 5 seconds
+      })
+      .catch(error => {
+        msg.innerHTML = "Error sending message ❌";
+        msg.style.color = "red";
+      });
+  });
+</script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const toggleBtn = document.getElementById("readMoreBtn");
+    const moreAbout = document.getElementById("more-about");
+
+    toggleBtn.addEventListener("click", function () {
+      if (moreAbout.style.display === "none" || moreAbout.style.display === "") {
+        moreAbout.style.display = "block";
+        toggleBtn.innerText = "Read Less";
+      } else {
+        moreAbout.style.display = "none";
+        toggleBtn.innerText = "Read More";
+      }
+    });
+  });
+</script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const skillsBtn = document.getElementById("readMoreSkillsBtn");
+    const moreSkills = document.getElementById("more-skills");
+
+    skillsBtn.addEventListener("click", function () {
+      if (moreSkills.style.display === "none" || moreSkills.style.display === "") {
+        moreSkills.style.display = "block";
+        skillsBtn.innerText = "Read Less";
+      } else {
+        moreSkills.style.display = "none";
+        skillsBtn.innerText = "Read More";
+      }
+    });
+  });
+</script>
+
+
+
+
+</body>
+</html>
